@@ -11,8 +11,6 @@ const Main = () => {
       <section id="aboutme">
         <div className="row first-section">
           <div class="col-xs-1 col-md-1">
-
-
           </div>
         <div class="col-xs-9 col-md-5 brd">
                                   <img
@@ -20,9 +18,6 @@ const Main = () => {
         src="https://i.imgur.com/JXQt1mi.png"
         alt="me-again"></img>
           </div>
-
-
-
           <div class="col-xs-4 col-md-5 text-center">
 
                   <h2> Briceida </h2>
