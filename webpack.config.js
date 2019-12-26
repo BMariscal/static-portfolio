@@ -1,6 +1,8 @@
 const HtmlWebPackPlugin = require("html-webpack-plugin");
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const webpack = require('webpack');
+const path = require('path');
 const dotenv = require('dotenv');
 
 
@@ -14,6 +16,13 @@ return prev;
 }, {});
 
 module.exports = {
+    mode: 'development',
+    entry: './App.js',
+    output: {
+        filename: '[name].js',
+        path: path.resolve(__dirname, 'dist')
+    },
+
   module: {
     rules: [
       {
@@ -38,6 +47,11 @@ module.exports = {
       }
     ]
   },
+  devServer: {
+        contentBase: './dist',
+        overlay: true,
+        hot: true
+    },
   plugins: [
     new webpack.DefinePlugin(envKeys),
     new HtmlWebPackPlugin({

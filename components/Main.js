@@ -25,13 +25,13 @@ const Main = () => {
                   <p>
                     Hey! I'm Briceida but I often go by Bri/Brie.
                     I'm a software developer in San Francisco.
-                    You can read more about my software engineering journey <a href="https://medium.com/engineers-optimizely/from-security-guard-to-backend-engineer-how-the-i-own-it-scholarship-changed-my-life-ebf1d370ffc3"> <i style={{weight: "300", color: "#17a2b8"}}>here.</i> </a>
+                    You can read more about my software engineering journey <a href="https://medium.com/engineers-optimizely/from-security-guard-to-backend-engineer-how-the-i-own-it-scholarship-changed-my-life-ebf1d370ffc3"> <i style={{weight: "300", color: "#6517b8"}}>here.</i> </a>
                    <br/>
                     <br/>
                     In my spare time, I volunteer as a mentor minorities in tech, draw, and paint miniatures.
                     <br/>
                     <br/>
-                    Check out my personal <a href="#projects" style={{weight: "300", color: "#17a2b8"}}> <b>projects</b>, </a> and other <a href="#misc" style={{weight: "300", color: "#17a2b8"}}> <b>things I've recently done.</b> </a>
+                    Check out my personal <a href="#projects" style={{weight: "300", color: "#6517b8"}}> <b>projects</b>, </a> and other <a href="#misc" style={{weight: "300", color: "#6517b8"}}> <b>things I've recently done.</b> </a>
                   </p>
                    <div className="social-media">
                 <a
