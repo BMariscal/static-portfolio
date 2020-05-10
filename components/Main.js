@@ -15,7 +15,7 @@ const Main = () => {
         <div class="col-xs-9 col-md-5 brd">
                                   <img
         className="img-fluid card2"
-        src="https://i.imgur.com/JXQt1mi.png"
+        src="https://i.imgur.com/gZzXBe8.png?1"
         alt="me-again"></img>
           </div>
           <div class="col-xs-4 col-md-5 text-center">
